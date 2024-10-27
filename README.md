@@ -17,3 +17,18 @@ This document provides a detailed overview of the API for the shopping applicati
 
 The base URL for the API is:
 http://localhost:5000/api
+
+
+
+## Authentication Endpoints
+
+### 1. Register a New User
+
+- **Endpoint**: `POST /auth/register`
+- **Request Body**:
+  ```json
+  {
+    "userName": "string",
+    "email": "string",
+    "password": "string"
+  }
