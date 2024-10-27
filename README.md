@@ -95,3 +95,20 @@ Shopping Cart Endpoints
 *   **Endpoint**: POST /shop/cart/add
     
 *   **Request Body**:
+
+  ```json
+{
+  "userId": "string",
+  "cartId": "string",
+  "totalAmount": number,
+  "paymentMethod": "string"
+}
+
+*   **Description**: Creates a new order.
+    
+
+### 2\. Capture Payment for Order
+
+*   **Endpoint**: POST /shop/order/capture
+    
+*   **Request Body**:
