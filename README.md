@@ -130,18 +130,40 @@ Shopping Cart Endpoints
 Order Management Endpoints
 --------------------------
 
-### 1\. Create New Order
+### 1\. List All Orders for a User
 
-*   **Endpoint**: POST /shop/order/create
+*   **Endpoint**: GET /shop/order/list/:userId
     
-*   **Request Body**:
-    ```json
-    {
-      "userId": "string",
-      "cartId": "string",
-      "totalAmount": number,
-      "paymentMethod": "string"
-    }
-  
-*   **Description**: Creates a new order.
+*   **Request Body**: None
+    
+*   **Description**: Retrieves all orders for a specific user.
+    
+
+### 2\. Get Order Details
+
+*   **Endpoint**: GET /shop/order/details/:id
+    
+*   **Request Body**: None
+    
+*   **Description**: Retrieves details of a specific order by ID.
+    
+
+Error Handling
+--------------
+
+Each endpoint implements error handling to return appropriate status codes and messages for invalid requests. Common status codes include:
+
+*   **400 Bad Request**: The request could not be understood or was missing required parameters.
+    
+*   **401 Unauthorized**: Authentication failed or user does not have permissions for the desired action.
+    
+*   **404 Not Found**: The requested resource was not found.
+    
+*   **500 Internal Server Error**: An error occurred on the server.
+    
+
+Conclusion
+----------
+
+This API documentation provides a comprehensive overview of the available endpoints, their request formats, and descriptions. Follow the guidelines for error handling, authentication, and input validation to maintain the integrity and security of the application.
     
