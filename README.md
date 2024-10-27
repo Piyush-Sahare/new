@@ -116,10 +116,12 @@ Shopping Cart Endpoints
 *   **Endpoint**: PUT /shop/cart/update-cart
     
 *   **Description**: Updates the quantity of a cart item.
-*   - **Request Body**:
-  ```json
+   - **Request Body**:
+      ```json
       {
        "userId": "string",
+       "productId": "string",
+        "quantity": number
        }
     
 
