@@ -10,8 +10,7 @@ This document provides a detailed overview of the API for the shopping applicati
 - [Shopping Cart Endpoints](#shopping-cart-endpoints)
 - [Order Management Endpoints](#order-management-endpoints)
 - [Error Handling](#error-handling)
-- [Authentication and Authorization](#authentication-and-authorization)
-- [Input Validation](#input-validation)
+
 
 ## Base URL
 
