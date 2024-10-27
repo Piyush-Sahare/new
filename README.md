@@ -137,10 +137,10 @@ Order Management Endpoints
 *   **Request Body**:
     ```json
     {
-   "userId": "string",
-   "cartId": "string",
-   "totalAmount": number,
-   "paymentMethod": "string"
+      "userId": "string",
+      "cartId": "string",
+      "totalAmount": number,
+      "paymentMethod": "string"
     }
   
 *   **Description**: Creates a new order.
