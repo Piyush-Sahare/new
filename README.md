@@ -1,6 +1,6 @@
 
 
-\# API Documentation
+# API Documentation
 
 This document provides a detailed overview of the API for the shopping application. It includes information about authentication, product management, shopping cart operations, and order processing.
 
