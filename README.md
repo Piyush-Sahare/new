@@ -34,3 +34,14 @@ http://localhost:5000/api
   }
 
 - **Description**: Registers a new user.
+
+### 2. Log In User
+-**Endpoint**: `POST /auth/login`
+**Request Body**:
+```json
+{
+  "email": "string",
+  "password": "string"
+}
+
+-**Description**: Logs in a user and returns authentication tokens.
