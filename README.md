@@ -68,7 +68,7 @@ http://localhost:5000/api
 Product Management Endpoints
 ----------------------------
 
-### 1\. Get Filtered Products
+### 1\. Get All Products
 
 *   **Endpoint**: GET /shop/products/get
     
