@@ -1,6 +1,4 @@
-Here’s a structured \`README.md\` file for your API documentation. This will help users understand how to use the API, including the available endpoints, request formats, and descriptions.
 
-\`\`\`markdown
 
 \# API Documentation
 
