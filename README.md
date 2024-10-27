@@ -116,6 +116,11 @@ Shopping Cart Endpoints
 *   **Endpoint**: PUT /shop/cart/update-cart
     
 *   **Description**: Updates the quantity of a cart item.
+*   - **Request Body**:
+  ```json
+      {
+       "userId": "string",
+       }
     
 
 ### 4\. Delete Item from Cart
