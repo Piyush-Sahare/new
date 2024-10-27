@@ -94,21 +94,36 @@ Shopping Cart Endpoints
 
 *   **Endpoint**: POST /shop/cart/add
     
-*   **Request Body**:
-
   ```json
-{
-  "userId": "string",
-  "cartId": "string",
-  "totalAmount": number,
-  "paymentMethod": "string"
-}
-
-*   **Description**: Creates a new order.
+  {
+    "userId": "string",
+  "productId": "string",
+  "quantity": number
+  }
+    
+*   **Description**: Adds an item to the user's cart.
     
 
-### 2\. Capture Payment for Order
+### 2\. Fetch Cart Items
 
-*   **Endpoint**: POST /shop/order/capture
+*   **Endpoint**: GET /shop/cart/get/:userId
     
-*   **Request Body**:
+*   **Request Body**: None
+    
+*   **Description**: Fetches cart items for a specific user.
+    
+
+### 3\. Update Cart Item Quantity
+
+*   **Endpoint**: PUT /shop/cart/update-cart
+    
+*   **Description**: Updates the quantity of a cart item.
+    
+
+### 4\. Delete Item from Cart
+
+*   **Endpoint**: DELETE /shop/cart/:userId/:productId
+    
+*   **Request Body**: None
+    
+*   **Description**: Deletes a specific item from the cart.
