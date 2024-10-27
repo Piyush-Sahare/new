@@ -32,3 +32,5 @@ http://localhost:5000/api
     "email": "string",
     "password": "string"
   }
+
+- **Description**: Registers a new user.
