@@ -42,7 +42,7 @@ http://localhost:5000/api
   
   {
   "email": "string",
-  "password": "string
+  "password": "string"
   }
 
 
