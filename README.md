@@ -47,3 +47,51 @@ http://localhost:5000/api
 
 
 - **Description**: Logs in a user and returns authentication tokens.
+
+### 3\. Log Out User
+
+*   **Endpoint**: POST /auth/logout
+    
+*   **Request Body**: None
+    
+*   **Description**: Logs out the current user.
+    
+
+### 4\. Check Authentication Status
+
+*   **Endpoint**: GET /auth/check-auth
+    
+*   **Request Body**: None
+    
+*   **Description**: Checks if the user is authenticated.
+    
+
+Product Management Endpoints
+----------------------------
+
+### 1\. Get Filtered Products
+
+*   **Endpoint**: GET /shop/products/get
+    
+*   **Request Body**: None
+    
+*   **Description**: Retrieves a list of filtered products.
+    
+
+### 2\. Get Product Details
+
+*   **Endpoint**: GET /shop/products/get/:id
+    
+*   **Request Body**: None
+    
+*   **Description**: Retrieves details of a specific product by ID.
+    
+
+Shopping Cart Endpoints
+-----------------------
+
+### 1\. Add Item to Cart
+
+*   **Endpoint**: POST /shop/cart/add
+    
+*   **Request Body**:
