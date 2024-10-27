@@ -16,3 +16,4 @@ This document provides a detailed overview of the API for the shopping applicati
 ## Base URL
 
 The base URL for the API is:
+http://localhost:5000/api
