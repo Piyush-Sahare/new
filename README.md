@@ -93,14 +93,13 @@ Shopping Cart Endpoints
 ### 1\. Add Item to Cart
 
 *   **Endpoint**: POST /shop/cart/add
-    
-  ```json
-  {
-    "userId": "string",
-  "productId": "string",
-  "quantity": number
-  }
-    
+     ```json
+      {
+       "userId": "string",
+       "productId": "string",
+      "quantity": number
+      }
+
 *   **Description**: Adds an item to the user's cart.
     
 
