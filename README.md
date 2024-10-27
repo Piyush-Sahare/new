@@ -4,9 +4,9 @@
 
 This document provides a detailed overview of the API for the shopping application. It includes information about authentication, product management, shopping cart operations, and order processing.
 
-\## Table of Contents
+## Table of Contents
 
-\- \[Base URL\](#base-url)
+[Base URL\](#base-url)
 
 \- \[Authentication Endpoints\](#authentication-endpoints)
 
