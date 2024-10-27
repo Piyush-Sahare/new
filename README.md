@@ -37,11 +37,13 @@ http://localhost:5000/api
 
 ### 2. Log In User
 -**Endpoint**: `POST /auth/login`
-**Request Body**:
-```json
-{
+- **Request Body**:
+  ```json
+  
+  {
   "email": "string",
-  "password": "string"
-}
+  "password": "string
+  }
+
 
 - **Description**: Logs in a user and returns authentication tokens.
