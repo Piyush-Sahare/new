@@ -44,4 +44,4 @@ http://localhost:5000/api
   "password": "string"
 }
 
--**Description**: Logs in a user and returns authentication tokens.
+- **Description**: Logs in a user and returns authentication tokens.
