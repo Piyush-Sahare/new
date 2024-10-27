@@ -126,3 +126,22 @@ Shopping Cart Endpoints
 *   **Request Body**: None
     
 *   **Description**: Deletes a specific item from the cart.
+
+Order Management Endpoints
+--------------------------
+
+### 1\. Create New Order
+
+*   **Endpoint**: POST /shop/order/create
+    
+*   **Request Body**:
+    ```json
+    {
+   "userId": "string",
+   "cartId": "string",
+   "totalAmount": number,
+   "paymentMethod": "string"
+    }
+  
+*   **Description**: Creates a new order.
+    
